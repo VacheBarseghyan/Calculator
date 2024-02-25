@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #bbb;
+}
+
+div.form{
+    width: 280px;
+    padding: 10px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+div.form form input[type="text"]{
+    width: 95%;
+    padding: 10% 3%;
+    background-color: black;
+    border: none;
+    outline: none;
+    text-align: right;
+    color: white;
+    font-size: 4em;
+}
+
+div.form form input[type="button"]{
+    width: 65px;
+    height: 65px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+div.form form input[type="button"].z{
+    width: 130px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;   
+    border-bottom-right-radius: 25px;
+}
+
+.or{
+    background-color: #f79013;
+    color: white;
+}
+
+.n{
+    background-color: #353535;
+    color: white;
+}
+
+.negate{
+    background-color: #262626;
+    color: white;
+}
+
+.perc{
+    background-color: #262626;
+    color: white;
+}
+
+.ac{
+    background-color: #262626;
+    color: white;
+}
